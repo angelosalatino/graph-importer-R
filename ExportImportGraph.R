@@ -2,7 +2,7 @@
 #' library(jsonlite)
 
 
-#' Allow to both export and convert an igraph object to JSON.
+#' Allows to both export and convert an igraph object to JSON.
 #' 
 #' @param g the igraph object
 #' @param filename the out filename where to store the converted json. This parameter is optional. The funcion returns a json anyway. If this parameter is set it will also be saved into the file
