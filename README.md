@@ -1,10 +1,22 @@
 # Export-Import-a-graph-via-Json-in-R
 Save, Export and Import a graph (igraph) to JSON in R
 
+This file contains two fucntions only:
+1. exportGraph 
+2. importGraph
+
+*exportGraph*: Allows to both export and convert an igraph object to JSON. 
+*importGraph*: Allows to convert a json into an igraph object
+
+It requires:
+```R
+library(jsonlite)
+library(igraph)
+```
 
 # Test:
 ```R
-library(jsonlite)
+
 out <- exportGraph(g)
-g3 <- importGraph(exportGraph(g))
+g.new <- importGraph(exportGraph(g))
 ```
