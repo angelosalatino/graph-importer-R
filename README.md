@@ -6,6 +6,7 @@ This file contains two fucntions only:
 2. importGraph
 
 *exportGraph*: Allows to both export and convert an igraph object to JSON. 
+
 *importGraph*: Allows to convert a json into an igraph object
 
 It requires:
