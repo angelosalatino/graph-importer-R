@@ -1,4 +1,4 @@
-# Export-Import-a-graph-via-Json-in-R
+# graph-importer-R
 Save, Export and Import a graph (igraph) to JSON in R
 
 This file contains two fucntions only:
